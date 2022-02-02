@@ -8,6 +8,7 @@ public class DriverClass {
             fan.changeSpeed();
             System.out.println(fan);
         }
+
         fan.changeDirection();
         for (int i = 0; i < 5; i++){
             fan.changeSpeed();
